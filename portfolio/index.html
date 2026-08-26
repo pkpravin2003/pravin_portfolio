@@ -1,0 +1,2157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>K. Pravin &mdash; Digital Marketing Executive</title>
+<meta name="description" content="Portfolio of K. Pravin - Digital Marketing Executive, Social Media & Content Strategy, Lead Generation & Brand Growth.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Poppins:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    background: #e8e4dc;
+    font-family: 'Poppins', sans-serif;
+    color: #17160f;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .deck {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 32px 16px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .slide {
+    width: 100%;
+    max-width: 1200px;
+    min-height: 720px;
+    background: #F5F1E9;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd7c9;
+    border-radius: 20px;
+    padding: 52px 64px 64px;
+    box-shadow: 0 12px 36px rgba(23, 22, 15, 0.05);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .slide:hover {
+    box-shadow: 0 16px 44px rgba(23, 22, 15, 0.08);
+  }
+
+  .tag-index {
+    position: absolute;
+    top: 24px;
+    right: 28px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    font-weight: 600;
+    color: #8a8578;
+    letter-spacing: .08em;
+    background: rgba(23, 22, 15, 0.05);
+    padding: 4px 10px;
+    border-radius: 6px;
+  }
+
+  h1.big {
+    font-family: 'Fredoka', sans-serif;
+    font-size: clamp(38px, 5vw, 68px);
+    font-weight: 600;
+    color: #17160f;
+    letter-spacing: -.01em;
+    line-height: 1.1;
+  }
+  h1.big .dot { color: #E8912B; }
+
+  .kicker {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    color: #8a8578;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: 2px solid #17160f;
+    border-radius: 24px;
+    padding: 9px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #17160f;
+    background: #F5F1E9;
+    transition: all 0.2s ease;
+  }
+  .pill:hover {
+    background: #17160f;
+    color: #F5F1E9;
+    transform: translateY(-2px);
+  }
+
+  /* =========================================================
+     ---- SLIDE 1 : COVER (MATCHING SCREENSHOT ACCURATELY) ----
+     ========================================================= */
+  .cover {
+    padding: 48px 64px 0;
+    min-height: 780px;
+    background: #F7F4EE;
+  }
+
+  .cover-top-header {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .cover-title-main {
+    font-family: 'Fredoka', sans-serif;
+    font-size: clamp(38px, 5.2vw, 64px);
+    font-weight: 600;
+    color: #17160f;
+    line-height: 1.1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .cover-title-main .name-highlight {
+    color: #F3A649;
+  }
+  .cover-title-main .wave-emoji {
+    display: inline-block;
+    animation: wave 2.2s infinite;
+    transform-origin: 70% 70%;
+  }
+
+  @keyframes wave {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+  .cover-subtitle {
+    font-family: 'Fredoka', sans-serif;
+    font-size: clamp(24px, 3.4vw, 44px);
+    font-weight: 600;
+    color: #17160f;
+    margin-top: 4px;
+    letter-spacing: -.01em;
+  }
+
+  .cover-stage {
+    position: relative;
+    width: 100%;
+    min-height: 440px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  /* Left Quote */
+  .quote-section {
+    max-width: 290px;
+    position: relative;
+    z-index: 6;
+    margin-top: 40px;
+  }
+  .quote-icon {
+    font-family: 'Fredoka', Georgia, serif;
+    font-size: 58px;
+    font-weight: 800;
+    color: #2B2A28;
+    line-height: 0.5;
+    margin-bottom: 12px;
+  }
+  .quote-section p {
+    font-size: 15.5px;
+    color: #3a382f;
+    line-height: 1.6;
+    font-weight: 500;
+  }
+
+  /* Right Stat Callout */
+  .callout-section {
+    text-align: right;
+    max-width: 270px;
+    position: relative;
+    z-index: 6;
+    margin-top: 35px;
+    margin-left: auto;
+  }
+  .callout-section .stat-number {
+    font-family: 'Fredoka', sans-serif;
+    font-size: clamp(34px, 4vw, 46px);
+    font-weight: 600;
+    color: #17160f;
+    line-height: 1.1;
+  }
+  .callout-section .stat-desc {
+    font-size: 14.5px;
+    font-weight: 600;
+    color: #3a382f;
+    margin-top: 4px;
+    line-height: 1.35;
+  }
+  .squiggle-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4px;
+  }
+  .squiggle-svg {
+    width: 130px;
+    height: 14px;
+  }
+
+  /* Center Hero with Arc & Pravin's Photo (Centered, uncropped composition) */
+  .cover-center-stage {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 580px;
+    height: 440px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .cover-arc-bg {
+    display: none;
+  }
+
+  .hero-photo-frame {
+    position: relative;
+    width: auto;
+    max-width: 540px;
+    height: 440px;
+    overflow: visible;
+    z-index: 2;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .hero-photo {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 440px;
+    object-fit: contain;
+    object-position: bottom center;
+    display: block;
+    filter: contrast(1.02) brightness(1.01);
+  }
+
+  /* Float Badge Pills around Hero */
+  .badge-pills-desktop {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 8;
+  }
+  .float-badge {
+    position: absolute;
+    background: #17160f;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7.5px 15px;
+    border-radius: 24px;
+    white-space: nowrap;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.24);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    pointer-events: auto;
+    transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .float-badge:hover {
+    transform: translateY(-3px) scale(1.04);
+    background: #252420;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.35);
+  }
+  .float-badge .badge-icon {
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  /* 9 Badges Desktop Positioning (5 Left, 4 Right) */
+  .badge-tag-1 { top: 10px; left: -10px; }
+  .badge-tag-2 { top: 78px; left: -75px; }
+  .badge-tag-3 { top: 148px; left: -45px; }
+  .badge-tag-4 { top: 218px; left: -70px; }
+  .badge-tag-5 { top: 288px; left: -95px; }
+
+  .badge-tag-6 { top: 15px; right: -10px; }
+  .badge-tag-7 { top: 95px; right: -45px; }
+  .badge-tag-8 { top: 180px; right: -105px; }
+  .badge-tag-9 { top: 265px; right: -85px; }
+
+  .mobile-pills-wrap {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+
+  /* Bottom Dark Stat Bar */
+  .stat-bar {
+    width: calc(100% + 128px);
+    margin: 0 -64px 0 -64px;
+    background: #17160f;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-radius: 0 0 19px 19px;
+    z-index: 5;
+    position: relative;
+    box-shadow: 0 -4px 18px rgba(0,0,0,0.15);
+  }
+  .stat-bar .cell {
+    padding: 24px 16px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    justify-content: center;
+    border-right: 1px solid rgba(255,255,255,.1);
+    text-align: left;
+  }
+  .stat-bar .cell:last-child { border-right: none; }
+  
+  .stat-bar .icon-box {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(243, 166, 73, 0.12);
+    border: 1px solid rgba(243, 166, 73, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+  .stat-bar .num {
+    font-family: 'Fredoka', sans-serif;
+    font-size: clamp(22px, 2.3vw, 30px);
+    font-weight: 600;
+    color: #F3A649;
+    line-height: 1.1;
+  }
+  .stat-bar .lbl {
+    font-size: 12px;
+    font-weight: 500;
+    color: #e9e6dd;
+    margin-top: 3px;
+    line-height: 1.25;
+  }
+
+  /* ---- SLIDE 2 : ABOUT ---- */
+  .about-slide {
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.25fr 0.85fr;
+    gap: 48px;
+    align-items: center;
+  }
+  .about-text {
+    width: 100%;
+  }
+  .about-text h1.big {
+    margin-bottom: 20px;
+  }
+  .about-text p {
+    font-size: clamp(14.5px, 1.25vw, 16.5px);
+    color: #33312b;
+    line-height: 1.75;
+    margin-top: 18px;
+    font-weight: 500;
+  }
+  .about-text p:first-of-type {
+    margin-top: 0;
+  }
+  .about-text .hl {
+    border-bottom: 2.5px solid #F3A649;
+    padding-bottom: 2px;
+    font-weight: 600;
+    color: #17160f;
+  }
+
+  /* Right Side Photo on About Slide */
+  .about-photo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    min-height: 460px;
+  }
+  .about-arc-bg {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background: #F3A649;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  .about-photo-frame {
+    position: relative;
+    width: 100%;
+    max-width: 440px;
+    height: 480px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+  }
+  .about-photo {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 480px;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    filter: drop-shadow(0 12px 28px rgba(0,0,0,0.12));
+    transition: transform 0.3s ease;
+  }
+  .about-photo-frame:hover .about-photo {
+    transform: scale(1.02);
+  }
+
+  /* =========================================================
+     ---- SLIDE 3 : WHAT I DO (INCLUDING CREATIVE & MARKETING) ----
+     ========================================================= */
+  .wid-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 24px;
+  }
+  .wid-header h1.big {
+    font-size: clamp(38px, 5vw, 62px);
+    flex-shrink: 0;
+  }
+  .wid-header-desc {
+    max-width: 540px;
+  }
+  .wid-header-desc p {
+    font-size: 14.5px;
+    color: #3a382f;
+    line-height: 1.55;
+    font-weight: 500;
+  }
+  .wid-header-desc .accent-bar {
+    width: 100px;
+    height: 3px;
+    background: #F3A649;
+    border-radius: 2px;
+    margin-top: 8px;
+  }
+
+  .wid-grid-8 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  .wid-box {
+    border: 2px solid #17160f;
+    border-radius: 16px;
+    padding: 18px 18px 20px;
+    background: #FAF7F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+  .wid-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 26px rgba(23, 22, 15, 0.08);
+    border-color: #E8912B;
+    background: #ffffff;
+  }
+
+  .wid-box-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .wid-box-num {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: #F3A649;
+    line-height: 0.9;
+  }
+  .wid-box-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wid-box-icon svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .wid-box-title {
+    font-size: 15px;
+    font-weight: 800;
+    color: #17160f;
+    letter-spacing: .02em;
+    margin-top: 12px;
+    line-height: 1.25;
+    text-transform: uppercase;
+  }
+  .wid-box-line {
+    width: 28px;
+    height: 2px;
+    background: #F3A649;
+    margin: 6px 0 8px;
+  }
+  .wid-box-desc {
+    font-size: 12.5px;
+    color: #3a382f;
+    line-height: 1.45;
+    font-weight: 500;
+  }
+
+  /* ---- SLIDE 4 : EXPERIENCE & EDUCATION ---- */
+  .split2 {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 44px;
+    align-items: flex-start;
+    margin-top: 12px;
+  }
+  .tl {
+    border: 2px solid #17160f;
+    border-radius: 16px;
+    padding: 24px;
+    background: #faf7f2;
+  }
+  .tl-item {
+    display: flex;
+    gap: 16px;
+    position: relative;
+    padding-bottom: 24px;
+  }
+  .tl-item:last-child { padding-bottom: 0; }
+  .tl-line {
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    bottom: 0;
+    width: 2px;
+    background: #F3A649;
+  }
+  .tl-item:last-child .tl-line { display: none; }
+  .tl-dot {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #17160f;
+    color: #F3A649;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .tl-item h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #17160f;
+    line-height: 1.3;
+  }
+  .tl-item .when {
+    font-size: 12px;
+    color: #8a8578;
+    font-weight: 600;
+    margin-top: 2px;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  .tl-item .org {
+    font-size: 13px;
+    color: #3a382f;
+    font-weight: 600;
+    margin-top: 2px;
+  }
+  .tl-item ul {
+    margin-top: 8px;
+  }
+  .tl-item li {
+    font-size: 12.5px;
+    color: #4a473c;
+    margin-top: 6px;
+    list-style: none;
+    position: relative;
+    padding-left: 14px;
+    font-weight: 500;
+    line-height: 1.45;
+  }
+  .tl-item li::before {
+    content: "—";
+    position: absolute;
+    left: 0;
+    color: #E8912B;
+    font-weight: 700;
+  }
+  .edu-card {
+    border: 2px solid #17160f;
+    border-radius: 16px;
+    padding: 20px 22px;
+    margin-bottom: 16px;
+    background: #faf7f2;
+    transition: transform 0.2s ease;
+  }
+  .edu-card:hover {
+    transform: translateY(-2px);
+  }
+  .edu-card:last-child { margin-bottom: 0; }
+  .edu-card .deg {
+    font-size: 11.5px;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #E8912B;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .edu-card .yr {
+    font-size: 12px;
+    color: #8a8578;
+    font-weight: 600;
+    float: right;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  .edu-card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #17160f;
+    margin-top: 4px;
+  }
+  .edu-card .org {
+    font-size: 13px;
+    color: #3a382f;
+    margin-top: 3px;
+    font-weight: 500;
+  }
+  .foot-line {
+    margin-top: 20px;
+    font-size: 13.5px;
+    color: #3a382f;
+    font-weight: 500;
+    border-top: 2px solid #F3A649;
+    padding-top: 12px;
+    line-height: 1.6;
+  }
+
+  /* =========================================================
+     ---- SLIDE 5 : SKILLS & TOOLS (MATCHING SCREENSHOT) ----
+     ========================================================= */
+  .skills-title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  .accent-sparkle {
+    width: 34px;
+    height: 34px;
+  }
+
+  .skills-pills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 36px;
+  }
+  .pill-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .skill-tag {
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid #17160f;
+    border-radius: 24px;
+    padding: 8px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #17160f;
+    background: #FAF7F2;
+    transition: all 0.2s ease;
+    cursor: default;
+  }
+  .skill-tag:hover {
+    background: #17160f;
+    color: #FAF7F2;
+    transform: translateY(-2px);
+  }
+
+  /* Tools Panel */
+  .tools-full-panel {
+    background: #FAF7F2;
+    border: 2px solid #17160f;
+    border-radius: 20px;
+    padding: 32px 36px;
+  }
+
+  .tools-grid-4,
+  .tools-grid-5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+    margin-top: 22px;
+  }
+
+  .tool-group-card {
+    background: #FFFFFF;
+    border: 2px solid #17160f;
+    border-radius: 16px;
+    padding: 16px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+  .tool-group-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(23, 22, 15, 0.08);
+    border-color: #E8912B;
+  }
+
+  .tool-icons-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+    width: 100%;
+  }
+  .app-tile {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+    border: 1px solid #ede8de;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 5px;
+    flex-shrink: 0;
+  }
+  .app-tile svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .tool-category-badge {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    font-weight: 700;
+    color: #3a382f;
+    background: #FAF7F2;
+    border: 1px solid #ddd7c9;
+    padding: 4px 6px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 0.02em;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .tool-bullets {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+  }
+  .tool-bullets li {
+    font-size: 11.5px;
+    font-weight: 600;
+    color: #17160f;
+    position: relative;
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+    line-height: 1.35;
+  }
+  .tool-bullets li::before {
+    content: "•";
+    color: #E8912B;
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    line-height: 1;
+  }
+
+  /* =========================================================
+     ---- SLIDE 6 : GALLERY & CREATIVE SHOWCASE ----
+     ========================================================= */
+  .gallery-slide-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 24px;
+  }
+  .gallery-filter-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .gal-tab {
+    background: #FAF7F2;
+    border: 2px solid #17160f;
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #17160f;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .gal-tab.active, .gal-tab:hover {
+    background: #17160f;
+    color: #F3A649;
+    border-color: #17160f;
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .gallery-card {
+    background: #FAF7F2;
+    border: 2px solid #17160f;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    cursor: pointer;
+  }
+  .gallery-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(23, 22, 15, 0.12);
+    border-color: #F3A649;
+  }
+
+  .gal-thumb-wrap {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    background: #17160f;
+  }
+  .gal-thumb-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.35s ease;
+  }
+  .gallery-card:hover .gal-thumb-wrap img {
+    transform: scale(1.07);
+  }
+
+  .gal-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(23, 22, 15, 0.85);
+    backdrop-filter: blur(4px);
+    color: #F3A649;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 12px;
+    border: 1px solid rgba(243, 166, 73, 0.4);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .gal-zoom-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    opacity: 0;
+    transform: translateY(6px);
+    transition: all 0.2s ease;
+  }
+  .gallery-card:hover .gal-zoom-btn {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .gal-body {
+    padding: 16px 18px 18px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .gal-tag-small {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: #E8912B;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
+  }
+  .gal-title {
+    font-size: 15.5px;
+    font-weight: 700;
+    color: #17160f;
+    line-height: 1.3;
+    margin-bottom: 6px;
+  }
+  .gal-desc {
+    font-size: 12.5px;
+    color: #4a473c;
+    line-height: 1.45;
+    font-weight: 500;
+    margin-top: auto;
+  }
+
+  /* Lightbox Modal */
+  .lightbox-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(23, 22, 15, 0.88);
+    backdrop-filter: blur(8px);
+    z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .lightbox-modal.active {
+    display: flex;
+  }
+  .lightbox-content {
+    background: #FAF7F2;
+    border: 2px solid #17160f;
+    border-radius: 20px;
+    max-width: 800px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+    position: relative;
+    animation: popIn 0.25s ease-out;
+  }
+  @keyframes popIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  .lightbox-img-wrap {
+    width: 100%;
+    height: 400px;
+    background: #17160f;
+    overflow: hidden;
+  }
+  .lightbox-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .lightbox-info {
+    padding: 24px 28px;
+  }
+  .lightbox-close-btn {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #17160f;
+    color: #FAF7F2;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, background-color 0.2s;
+    z-index: 10;
+  }
+  .lightbox-close-btn:hover {
+    background: #E8912B;
+    transform: scale(1.08);
+  }
+
+  /* ---- SLIDE 7 : THANK YOU ---- */
+  .thanks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px 0;
+  }
+  .thanks-left h1 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: clamp(42px, 5.5vw, 70px);
+    font-weight: 600;
+    color: #17160f;
+    line-height: 1.1;
+  }
+  .thanks-left h1 .bang { color: #E8912B; }
+  .thanks-left .sub {
+    font-size: clamp(15px, 1.6vw, 18px);
+    color: #3a382f;
+    font-weight: 500;
+    margin: 12px 0 28px;
+  }
+  .thanks-left .sub b { color: #E8912B; }
+  
+  .contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .contact-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #17160f;
+    text-decoration: none;
+  }
+  .contact-row:hover {
+    color: #E8912B;
+  }
+  .contact-row .ic {
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    background: #17160f;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    flex-shrink: 0;
+  }
+  .contact-row .note {
+    font-size: 12px;
+    color: #8a8578;
+    font-weight: 500;
+  }
+  .thanks-right {
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .thanks-avatar-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #F3A649;
+    margin: 0 auto 16px;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+  }
+  .thanks-avatar-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 10%;
+  }
+  .signature {
+    font-size: 24px;
+    font-weight: 700;
+    color: #17160f;
+    font-style: italic;
+  }
+  .role-tag {
+    font-size: 12px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #8a8578;
+    margin-top: 6px;
+    font-weight: 600;
+  }
+
+  /* ---- RESPONSIVE MEDIA QUERIES ---- */
+
+  /* Tablets and Smaller Desktops (1024px) */
+  @media (max-width: 1024px) {
+    .slide {
+      padding: 40px 36px 48px;
+      min-height: auto;
+    }
+    .cover {
+      padding: 40px 36px 0;
+    }
+    .cover-center-stage {
+      width: 480px;
+      height: 380px;
+    }
+    .cover-arc-bg {
+      display: none;
+    }
+    .hero-photo-frame {
+      width: auto;
+      max-width: 460px;
+      height: 380px;
+    }
+    .badge-tag-1 { top: 8px; left: -15px; }
+    .badge-tag-2 { top: 68px; left: -55px; }
+    .badge-tag-3 { top: 128px; left: -25px; }
+    .badge-tag-4 { top: 188px; left: -48px; }
+    .badge-tag-5 { top: 248px; left: -68px; }
+
+    .badge-tag-6 { top: 12px; right: -15px; }
+    .badge-tag-7 { top: 85px; right: -35px; }
+    .badge-tag-8 { top: 158px; right: -75px; }
+    .badge-tag-9 { top: 230px; right: -60px; }
+
+    .wid-grid-8 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .tools-grid-4,
+    .tools-grid-5 {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+    .gallery-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stat-bar {
+      width: calc(100% + 72px);
+      margin: 0 -36px 0 -36px;
+    }
+    .split2 {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+  }
+
+  /* Tablets & Mobile Devices (860px) */
+  @media (max-width: 860px) {
+    .deck {
+      padding: 16px 12px;
+      gap: 24px;
+    }
+    .slide {
+      padding: 32px 20px 32px;
+      border-radius: 16px;
+    }
+    .cover {
+      padding: 32px 20px 0;
+    }
+    .tag-index {
+      top: 16px;
+      right: 18px;
+      font-size: 11px;
+    }
+    
+    /* Cover Responsive Mobile Layout */
+    .cover-stage {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+      min-height: auto;
+    }
+    .quote-section {
+      max-width: 100%;
+      text-align: center;
+      margin-top: 10px;
+    }
+    .callout-section {
+      max-width: 100%;
+      text-align: center;
+      margin-top: 0;
+    }
+    .squiggle-wrapper {
+      justify-content: center;
+    }
+    .cover-center-stage {
+      position: relative;
+      left: auto;
+      bottom: auto;
+      transform: none;
+      width: 100%;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      margin: 16px 0 0;
+    }
+    .cover-arc-bg {
+      display: none;
+    }
+    .hero-photo-frame {
+      width: auto;
+      max-width: 320px;
+      height: 300px;
+    }
+    .badge-pills-desktop {
+      display: none;
+    }
+    .mobile-pills-wrap {
+      display: flex;
+    }
+    .stat-bar {
+      width: calc(100% + 40px);
+      margin: 20px -20px 0 -20px;
+      grid-template-columns: repeat(2, 1fr);
+      border-radius: 0 0 15px 15px;
+    }
+    .stat-bar .cell {
+      padding: 16px 12px;
+      border-right: none;
+      border-bottom: 1px solid rgba(255,255,255,.1);
+    }
+    .stat-bar .cell:last-child {
+      grid-column: span 2;
+      border-bottom: none;
+    }
+
+    /* What I do Responsive */
+    .wid-header {
+      flex-direction: column;
+      gap: 12px;
+    }
+    .wid-grid-8 {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+    .tools-grid-4,
+    .tools-grid-5 {
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    .tools-full-panel {
+      padding: 24px 18px;
+    }
+    .gallery-grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    .lightbox-img-wrap {
+      height: 260px;
+    }
+
+    /* About Section */
+    .about-slide {
+      grid-template-columns: 1fr;
+      text-align: left;
+      gap: 28px;
+    }
+    .about-text h1.big {
+      margin-bottom: 16px;
+    }
+    .about-text p {
+      font-size: 15px;
+      line-height: 1.65;
+      margin-top: 16px;
+    }
+    .about-photo-frame {
+      max-width: 320px;
+      height: 380px;
+      margin: 0 auto;
+    }
+
+    /* Thank you slide */
+    .thanks {
+      flex-direction: column-reverse;
+      text-align: center;
+      gap: 28px;
+    }
+    .contact-list {
+      align-items: center;
+    }
+    .contact-row {
+      flex-direction: column;
+      gap: 6px;
+      text-align: center;
+    }
+    .thanks-avatar-img {
+      width: 140px;
+      height: 140px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .deck {
+      padding: 12px 8px;
+      gap: 18px;
+    }
+    .slide {
+      padding: 26px 14px 26px;
+    }
+    .cover {
+      padding: 26px 14px 0;
+    }
+    .stat-bar {
+      width: calc(100% + 28px);
+      margin: 16px -14px 0 -14px;
+    }
+    .cover-subtitle {
+      font-size: 22px;
+    }
+    .wid-box {
+      padding: 16px 14px;
+    }
+    .tl {
+      padding: 18px 14px;
+    }
+    .tl-item {
+      gap: 12px;
+    }
+    .tl-dot {
+      width: 34px;
+      height: 34px;
+      font-size: 14px;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="deck">
+
+  <!-- =========================================================
+       SLIDE 1: COVER (ACCURATE MATCH TO SCREENSHOT WITH USER PHOTO)
+       ========================================================= -->
+  <div class="slide cover">
+    <span class="tag-index">01 / 07</span>
+    
+    <div class="cover-top-header">
+      <div class="cover-title-main">
+        I'm <span class="name-highlight">K. Pravin</span> <span class="wave-emoji">&#128075;</span>
+      </div>
+      <div class="cover-subtitle">A Digital Marketing Executive</div>
+    </div>
+
+    <div class="cover-stage">
+      <!-- Center Hero Area with Pravin's Photo, Arc and Badges -->
+      <div class="cover-center-stage">
+        <div class="cover-arc-bg"></div>
+        
+        <div class="hero-photo-frame">
+          <img src="hero_pravin.jpg" alt="K. Pravin - Digital Marketing Executive" class="hero-photo">
+        </div>
+
+        <!-- 9 Floating Pill Skill Badges around Portrait -->
+        <div class="badge-pills-desktop">
+          <div class="float-badge badge-tag-1">
+            <span class="badge-icon">&#128640;</span> Meta Ads
+          </div>
+          <div class="float-badge badge-tag-2">
+            <span class="badge-icon">&#128227;</span> Social Media Marketing
+          </div>
+          <div class="float-badge badge-tag-3">
+            <span class="badge-icon">&#127909;</span> Videography
+          </div>
+          <div class="float-badge badge-tag-4">
+            <span class="badge-icon">&#127916;</span> Video Editing
+          </div>
+          <div class="float-badge badge-tag-5">
+            <span class="badge-icon">&#128197;</span> Event &amp; Campaign Execution
+          </div>
+          <div class="float-badge badge-tag-6">
+            <span class="badge-icon">&#128248;</span> Photography
+          </div>
+          <div class="float-badge badge-tag-7">
+            <span class="badge-icon">&#127912;</span> Graphics Design
+          </div>
+          <div class="float-badge badge-tag-8">
+            <span class="badge-icon">&#129309;</span> Community Building &amp; Outreach
+          </div>
+          <div class="float-badge badge-tag-9">
+            <span class="badge-icon">&#128101;</span> Training &amp; Team Mentorship
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Stat Callout with Squiggle -->
+      <div class="callout-section">
+        <div class="stat-number">1.5+ Years</div>
+        <div class="stat-desc">Digital Marketing<br>&amp; Brand Growth</div>
+        <div class="squiggle-wrapper">
+          <svg class="squiggle-svg" viewBox="0 0 160 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 11C30 5 58 14 88 9C118 4 138 12 156 8" stroke="#F3A649" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Badges List (9 Skill Tags) -->
+    <div class="mobile-pills-wrap">
+      <div class="float-badge"><span class="badge-icon">&#128640;</span> Meta Ads</div>
+      <div class="float-badge"><span class="badge-icon">&#128227;</span> Social Media Marketing</div>
+      <div class="float-badge"><span class="badge-icon">&#127909;</span> Videography</div>
+      <div class="float-badge"><span class="badge-icon">&#127916;</span> Video Editing</div>
+      <div class="float-badge"><span class="badge-icon">&#128197;</span> Event &amp; Campaign Execution</div>
+      <div class="float-badge"><span class="badge-icon">&#128248;</span> Photography</div>
+      <div class="float-badge"><span class="badge-icon">&#127912;</span> Graphics Design</div>
+      <div class="float-badge"><span class="badge-icon">&#129309;</span> Community Building &amp; Outreach</div>
+      <div class="float-badge"><span class="badge-icon">&#128101;</span> Training &amp; Team Mentorship</div>
+    </div>
+
+    <!-- Bottom Stat Bar (Verified Professional Achievements from Resume) -->
+    <div class="stat-bar">
+      <div class="cell">
+        <div class="icon-box">&#127891;</div>
+        <div class="stat-meta">
+          <div class="num">200+</div>
+          <div class="lbl">Students Mentored</div>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="icon-box">&#128226;</div>
+        <div class="stat-meta">
+          <div class="num">20+</div>
+          <div class="lbl">Digital Marketing Sessions</div>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="icon-box">&#127912;</div>
+        <div class="stat-meta">
+          <div class="num">300+</div>
+          <div class="lbl">Creatives Designed</div>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="icon-box">&#127916;</div>
+        <div class="stat-meta">
+          <div class="num">100+</div>
+          <div class="lbl">Videos &amp; Reels Produced</div>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="icon-box">&#128248;</div>
+        <div class="stat-meta">
+          <div class="num">250+</div>
+          <div class="lbl">Events Covered</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       SLIDE 2: ABOUT (WITH RIGHT SIDE PORTRAIT)
+       ========================================================= -->
+  <div class="slide">
+    <span class="tag-index">02 / 07</span>
+    <div class="about-slide">
+      <div class="about-text">
+        <h1 class="big">about<span class="dot">.</span></h1>
+        <p>Results-driven <span class="hl">Digital Marketing Executive</span> with <span class="hl">1.5+ years of hands-on experience</span> in social media management, content creation, graphic design, video editing, and event/campaign execution.</p>
+        <p>Proven track record of building digital marketing capabilities at scale &mdash; <span class="hl">trained and mentored 200+ students through 20+ digital marketing awareness sessions</span> and led technical/digital coverage for <span class="hl">Nagapattinam Collectorate events</span> as an award-winning photographer.</p>
+        <p>Skilled in <span class="hl">Digital Marketing Strategy, Social Media Management, Content Creation, Meta Ads, Google Ads, Adobe Creative Suite, Canva, Photography, Videography, Graphic Design, and Video Editing</span>, with strong ownership of campaigns from <span class="hl">strategy to execution</span>.</p>
+      </div>
+      <div class="about-photo-wrap">
+        <div class="about-arc-bg"></div>
+        <div class="about-photo-frame">
+          <img src="about_pravin.jpg" alt="K. Pravin - Digital Marketing Executive" class="about-photo">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       SLIDE 3: WHAT I DO (MARKETING + PHOTOGRAPHY + VIDEOGRAPHY + DESIGN + EDITING)
+       ========================================================= -->
+  <div class="slide">
+    <span class="tag-index">03 / 07</span>
+    
+    <div class="wid-header">
+      <h1 class="big">what i do<span class="dot">.</span></h1>
+      <div class="wid-header-desc">
+        <p>I help businesses grow through strategic digital marketing, creative content production, high-impact design, and professional visual storytelling.</p>
+        <div class="accent-bar"></div>
+      </div>
+    </div>
+
+    <div class="wid-grid-8">
+      <!-- 01: META ADS -->
+      <div class="wid-box">
+        <div class="wid-box-top">
+          <div class="wid-box-num">01</div>
+          <div class="wid-box-icon">
+            <svg viewBox="0 0 48 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.2 8C7.5 8 3 12.8 3 18.5C3 24.2 7.5 29 13.2 29C17.6 29 21.2 26 23.5 21.7L24 20.8L24.5 21.7C26.8 26 30.4 29 34.8 29C40.5 29 45 24.2 45 18.5C45 12.8 40.5 8 34.8 8C30.4 8 26.8 11 24.5 15.3L24 16.2L23.5 15.3C21.2 11 17.6 8 13.2 8ZM13.2 12C16.2 12 18.8 14.1 20.6 17.2L21.3 18.5L20.6 19.8C18.8 22.9 16.2 25 13.2 25C9.7 25 7 22.1 7 18.5C7 14.9 9.7 12 13.2 12ZM34.8 12C38.3 12 41 14.9 41 18.5C41 22.1 38.3 25 34.8 25C31.8 25 29.2 22.9 27.4 19.8L26.7 18.5L27.4 17.2C29.2 14.1 31.8 12 34.8 12Z" stroke="#17160f" stroke-width="2.4" stroke-linejoin="round" fill="none"/>
+            </svg>
+          </div>
+        </div>
+        <div class="wid-box-title">META ADS</div>
+        <div class="wid-box-line"></div>
+        <div class="wid-box-desc">Create and optimize Meta campaigns that drive targeted leads, reach, and business growth.</div>
+      </div>
+
+      <!-- 02: LEAD GENERATION -->
+      <div class="wid-box">
+        <div class="wid-box-top">
+          <div class="wid-box-num">02</div>
+          <div class="wid-box-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="17" cy="11" r="3" stroke="#17160f" stroke-width="1.8"/>
+              <path d="M11 20C11 17.2 13.6 15 17 15C20.4 15 23 17.2 23 20" stroke="#17160f" stroke-width="1.8"/>
+              <circle cx="28" cy="8" r="3" stroke="#17160f" stroke-width="1.8"/>
+              <path d="M22 17C22 14.2 24.6 12 28 12C31.4 12 34 14.2 34 17" stroke="#17160f" stroke-width="1.8"/>
+              <circle cx="37" cy="12" r="2.8" stroke="#17160f" stroke-width="1.8"/>
+              <path d="M19 30V36C19 39.8 22.2 43 26 43C29.8 43 33 39.8 33 36V30" stroke="#17160f" stroke-width="2.2" stroke-linecap="round"/>
+              <path d="M15 30H23M29 30H37" stroke="#17160f" stroke-width="2.2" stroke-linecap="round"/>
+              <path d="M21 24L19 26L21 28M31 24L33 26L31 28" stroke="#F3A649" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </div>
+        <div class="wid-box-title">LEAD GENERATION</div>
+        <div class="wid-box-line"></div>
+        <div class="wid-box-desc">Build targeted campaigns that convert prospects into high-quality enquiries and sales.</div>
+      </div>
+
+      <!-- 03: SOCIAL MEDIA MARKETING -->
+      <div class="wid-box">
+        <div class="wid-box-top">
+          <div class="wid-box-num">03</div>
+          <div class="wid-box-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="13" stroke="#17160f" stroke-width="2"/>
+              <ellipse cx="24" cy="24" rx="5.5" ry="13" stroke="#17160f" stroke-width="1.8"/>
+              <line x1="11" y1="24" x2="37" y2="24" stroke="#17160f" stroke-width="1.8"/>
+              <rect x="7" y="11" width="6" height="5" rx="1" stroke="#17160f" stroke-width="1.5"/>
+              <path d="M35 8L39 12L34 13Z" stroke="#17160f" stroke-width="1.5"/>
+              <path d="M37 32C37 34 35 36 33 36C31 36 30 34 30 32C30 30 33 28 35 27C37 28 37 30 37 32Z" stroke="#17160f" stroke-width="1.5"/>
+              <rect x="8" y="32" width="5" height="5" rx="1" stroke="#17160f" stroke-width="1.5"/>
+            </svg>
+          </div>
+        </div>
+        <div class="wid-box-title">SOCIAL MEDIA MARKETING</div>
+        <div class="wid-box-line"></div>
+        <div class="wid-box-desc">Grow audience engagement, brand presence, and community across all digital channels.</div>
+      </div>
+
+      <!-- 04: GRAPHIC DESIGN -->
+      <div class="wid-box">
+        <div class="wid-box-top">
+          <div class="wid-box-num">04</div>
+          <div class="wid-box-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="7" y="9" width="24" height="24" rx="4" stroke="#17160f" stroke-width="2" fill="#FAF7F2"/>
+              <circle cx="14" cy="16" r="2.5" fill="#F3A649"/>
+              <circle cx="22" cy="16" r="2.5" fill="#4285F4"/>
+              <circle cx="14" cy="24" r="2.5" fill="#EA4335"/>
+              <path d="M25 33L37 11L41 15L29 37L25 33Z" fill="#17160f"/>
+              <circle cx="37" cy="11" r="1.5" fill="#F3A649"/>
+            </svg>
+          </div>
+        </div>
+        <div class="wid-box-title">GRAPHIC DESIGN</div>
+        <div class="wid-box-line"></div>
+        <div class="wid-box-desc">Design 300+ promotional creatives, branding kits, and ad banners using Photoshop, Illustrator &amp; Canva.</div>
+      </div>
+
+      <!-- 05: VIDEO EDITING -->
+      <div class="wid-box">
+        <div class="wid-box-top">
+          <div class="wid-box-num">05</div>
+          <div class="wid-box-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="7" y="14" width="34" height="24" rx="4" stroke="#17160f" stroke-width="2"/>
+              <path d="M7 14L13 8H19L13 14H7Z" fill="#17160f"/>
+              <path d="M19 14L25 8H31L25 14H19Z" fill="#F3A649"/>
+              <path d="M31 14L37 8H41V14H31Z" fill="#17160f"/>
+              <polygon points="21,21 21,31 30,26" fill="#F3A649"/>
+            </svg>
+          </div>
+        </div>
+        <div class="wid-box-title">VIDEO EDITING</div>
+        <div class="wid-box-line"></div>
+        <div class="wid-box-desc">Produced 100+ viral reels, ads, and promos with Premiere Pro, CapCut, After Effects &amp; DaVinci Resolve.</div>
+      </div>
+
+      <!-- 06: PHOTOGRAPHY & VIDEOGRAPHY -->
+      <div class="wid-box">
+        <div class="wid-box-top">
+          <div class="wid-box-num">06</div>
+          <div class="wid-box-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 16H16L18 12H30L32 16H38C40.2 16 42 17.8 42 20V36C42 38.2 40.2 40 38 40H10C7.8 40 6 38.2 6 36V20C6 17.8 7.8 16 10 16Z" stroke="#17160f" stroke-width="2" fill="#FAF7F2"/>
+              <circle cx="24" cy="28" r="8" stroke="#17160f" stroke-width="2"/>
+              <circle cx="24" cy="28" r="4" fill="#F3A649"/>
+              <circle cx="35" cy="21" r="2" fill="#17160f"/>
+              <path d="M24 6L25.5 9.5L29 11L25.5 12.5L24 16L22.5 12.5L19 11L22.5 9.5L24 6Z" fill="#F3A649"/>
+            </svg>
+          </div>
+        </div>
+        <div class="wid-box-title">PHOTOGRAPHY &amp; VIDEOGRAPHY</div>
+        <div class="wid-box-line"></div>
+        <div class="wid-box-desc">Award-winning photographer ("Best Photographer" Award) with 500+ institutional and collectorate events covered.</div>
+      </div>
+
+      <!-- 07: CONTENT STRATEGY -->
+      <div class="wid-box">
+        <div class="wid-box-top">
+          <div class="wid-box-num">07</div>
+          <div class="wid-box-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 7H28L36 15V39H12V7Z" stroke="#17160f" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M28 7V15H36" stroke="#17160f" stroke-width="1.8"/>
+              <line x1="17" y1="19" x2="24" y2="19" stroke="#17160f" stroke-width="1.8" stroke-linecap="round"/>
+              <line x1="17" y1="25" x2="28" y2="25" stroke="#17160f" stroke-width="1.8" stroke-linecap="round"/>
+              <line x1="17" y1="31" x2="22" y2="31" stroke="#17160f" stroke-width="1.8" stroke-linecap="round"/>
+              <path d="M34 26L41 33L36 38L29 31L34 26Z" fill="#FAF7F2" stroke="#17160f" stroke-width="1.8" stroke-linejoin="round"/>
+              <circle cx="34" cy="38" r="3.5" stroke="#F3A649" stroke-width="1.8"/>
+            </svg>
+          </div>
+        </div>
+        <div class="wid-box-title">CONTENT STRATEGY</div>
+        <div class="wid-box-line"></div>
+        <div class="wid-box-desc">Create content calendars, brand storytelling, and strategic campaign themes that drive conversions.</div>
+      </div>
+
+      <!-- 08: MARKETING ANALYTICS -->
+      <div class="wid-box">
+        <div class="wid-box-top">
+          <div class="wid-box-num">08</div>
+          <div class="wid-box-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="15" y="10" width="27" height="19" rx="3" stroke="#17160f" stroke-width="2"/>
+              <line x1="28" y1="29" x2="28" y2="35" stroke="#17160f" stroke-width="2"/>
+              <line x1="22" y1="35" x2="34" y2="35" stroke="#17160f" stroke-width="2" stroke-linecap="round"/>
+              <rect x="19" y="19" width="3" height="6" fill="#17160f"/>
+              <rect x="25" y="15" width="3" height="10" fill="#17160f"/>
+              <rect x="31" y="13" width="3" height="12" fill="#F3A649"/>
+              <circle cx="14" cy="27" r="5.5" stroke="#17160f" stroke-width="2" fill="#FAF7F2"/>
+              <line x1="10" y1="31" x2="6" y2="35" stroke="#17160f" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </div>
+        <div class="wid-box-title">MARKETING ANALYTICS</div>
+        <div class="wid-box-line"></div>
+        <div class="wid-box-desc">Turn data into actionable growth insights, tracking ROAS, CAC, and multi-channel marketing performance.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       SLIDE 4: EXPERIENCE & EDUCATION
+       ========================================================= -->
+  <div class="slide">
+    <span class="tag-index">04 / 07</span>
+    <div class="split2">
+      <div>
+        <h1 class="big" style="font-size:clamp(32px, 4vw, 52px);">experience<span class="dot">.</span></h1>
+        <div class="tl" style="margin-top:20px;">
+          <div class="tl-item">
+            <div class="tl-line"></div>
+            <div class="tl-dot">&#129489;&#8205;&#128188;</div>
+            <div>
+              <h3>Digital Marketing Trainer &amp; Program Coordinator</h3>
+              <div class="when">JUL 2025 &ndash; JUL 2026</div>
+              <div class="org">Arifa Institute of Technology | Nagapattinam, Tamil Nadu</div>
+              <ul>
+                <li>Delivered 20+ digital marketing awareness sessions, training and mentoring 200+ students across batches on social media, content creation and campaign basics.</li>
+                <li>Founded and led &ldquo;Digital Kingdom,&rdquo; a student-facing digital marketing initiative, designing programs that built practical, job-ready skills among students.</li>
+                <li>Served as Technical Lead &ndash; Digital Marketing for Nagapattinam Collectorate events, owning end-to-end digital coverage and campaign execution.</li>
+                <li>Planned, organized and executed college event coverage as lead, assembling and directing an on-ground team for each event.</li>
+                <li>Recognized with the &ldquo;Best Photographer&rdquo; award at Nagapattinam Collectorate for outstanding event photography.</li>
+                <li>Worked on multiple government-affiliated digital outreach projects alongside institutional partners.</li>
+                <li>Designed 300+ promotional creatives, produced 100+ promotional videos &amp; reels, and covered 500+ institutional events through professional photography and videography.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-line"></div>
+            <div class="tl-dot">&#127916;</div>
+            <div>
+              <h3>Digital Marketing Intern</h3>
+              <div class="when">JAN 2025 &ndash; JUN 2025</div>
+              <div class="org">Arifa Innovation &amp; Incubation Council (AIIC) | Nagapattinam, Tamil Nadu</div>
+              <ul>
+                <li>Collaborated with startup founders to develop digital marketing strategies.</li>
+                <li>Managed social media platforms and content calendars.</li>
+                <li>Designed branding materials, social media creatives, and promotional campaigns.</li>
+                <li>Created promotional videos and reels using Adobe Premiere Pro and DaVinci Resolve.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1 class="big" style="font-size:clamp(32px, 4vw, 52px);">education<span class="dot">.</span></h1>
+        <div style="margin-top:20px;">
+          <div class="edu-card">
+            <span class="yr">2021 &ndash; 2025</span>
+            <div class="deg">Bachelor of Engineering (B.E)</div>
+            <h3>Computer Science Engineering</h3>
+            <div class="org">Arifa Institute of Technology | Nagapattinam, Tamil Nadu</div>
+          </div>
+          <div class="edu-card">
+            <span class="yr">2019 &ndash; 2021</span>
+            <div class="deg">Diploma</div>
+            <h3>Mechanical Engineering</h3>
+            <div class="org">Arifa Polytechnic College | Nagapattinam, Tamil Nadu</div>
+          </div>
+        </div>
+        <div class="foot-line">
+          <strong>Key Highlights</strong><br>
+          &mdash; &ldquo;Best Photographer&rdquo; Award &ndash; Nagapattinam Collectorate.<br>
+          &mdash; Mentored 200+ students into skilled digital marketers through structured training programs.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       SLIDE 5 : SKILLS & TOOLS (MATCHING SCREENSHOT WITH NO CERTIFICATION)
+       ========================================================= -->
+  <div class="slide">
+    <span class="tag-index">05 / 07</span>
+    
+    <!-- Top skills title with playful orange accents -->
+    <div class="skills-title-wrapper">
+      <svg class="accent-sparkle" viewBox="0 0 36 36" fill="none">
+        <path d="M26 28L18 20M32 18L18 16M26 6L16 12" stroke="#F3A649" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+      <h1 class="big">skills<span class="dot">.</span></h1>
+      <svg class="accent-sparkle" viewBox="0 0 36 36" fill="none">
+        <path d="M10 28L18 20M4 18L18 16M10 6L20 12" stroke="#F3A649" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+    </div>
+
+    <!-- Centered Skill Pills in 2 rows as in screenshot -->
+    <div class="skills-pills-container">
+      <div class="pill-row">
+        <span class="skill-tag">Content &amp; Branding</span>
+        <span class="skill-tag">Growth Marketing</span>
+        <span class="skill-tag">Social Media &amp; Strategy</span>
+        <span class="skill-tag">Analytics</span>
+      </div>
+      <div class="pill-row">
+        <span class="skill-tag">Marketing Strategy</span>
+        <span class="skill-tag">Brand Management</span>
+        <span class="skill-tag">Creative Campaign</span>
+        <span class="skill-tag">Lead Generation</span>
+      </div>
+    </div>
+
+    <!-- Full-Width Tools Panel (Without Certification) -->
+    <div class="tools-full-panel">
+      <h1 class="big" style="font-size:clamp(32px, 4vw, 48px);">tools<span class="dot">.</span></h1>
+      
+      <div class="tools-grid-4">
+        
+        <!-- Group 1: Marketing Strategy -->
+        <div class="tool-group-card">
+          <div class="tool-icons-row">
+            <div class="app-tile" title="Google Analytics">
+              <svg viewBox="0 0 36 36" fill="none">
+                <rect x="6" y="20" width="6" height="12" rx="3" fill="#F4B400"/>
+                <rect x="15" y="13" width="6" height="19" rx="3" fill="#F4B400"/>
+                <rect x="24" y="5" width="6" height="27" rx="3" fill="#E37400"/>
+              </svg>
+            </div>
+            <div class="app-tile" title="Google Search Console">
+              <svg viewBox="0 0 36 36" fill="none">
+                <rect x="4" y="7" width="28" height="22" rx="4" fill="#4285F4"/>
+                <rect x="7" y="12" width="22" height="14" rx="2" fill="#FFFFFF"/>
+                <path d="M19 15L23 19L16 23L13 20L19 15Z" fill="#34A853"/>
+                <circle cx="21" cy="17" r="2.5" fill="#EA4335"/>
+              </svg>
+            </div>
+            <div class="app-tile" title="Google Trends">
+              <svg viewBox="0 0 36 36" fill="none">
+                <path d="M6 26L15 17L20 20L28 9" stroke="#4285F4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22 9H28V15" stroke="#EA4335" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="28" cy="9" r="2" fill="#34A853"/>
+              </svg>
+            </div>
+          </div>
+          <div class="tool-category-badge">Marketing Strategy</div>
+          <ul class="tool-bullets">
+            <li>Google Analytics</li>
+            <li>Google Search Console</li>
+            <li>Google Trends</li>
+          </ul>
+        </div>
+
+        <!-- Group 2: Branding & Social Media Marketing -->
+        <div class="tool-group-card">
+          <div class="tool-icons-row">
+            <div class="app-tile" title="Adobe Creative Suite">
+              <svg viewBox="0 0 36 36" fill="none">
+                <rect x="4" y="4" width="28" height="28" rx="6" fill="url(#adobe-grad)"/>
+                <path d="M18 10C13.5 10 10 13.5 10 18C10 22.5 13.5 26 18 26C21.5 26 24.5 23.8 25.5 20.5H22C21.3 22 19.8 23 18 23C15.2 23 13 20.8 13 18C13 15.2 15.2 13 18 13C19.8 13 21.3 14 22 15.5H25.5C24.5 12.2 21.5 10 18 10Z" fill="#FFFFFF"/>
+                <defs>
+                  <linearGradient id="adobe-grad" x1="4" y1="4" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FF0000"/>
+                    <stop offset="1" stop-color="#FF7A00"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div class="app-tile" title="CapCut">
+              <svg viewBox="0 0 36 36" fill="none">
+                <rect x="4" y="4" width="28" height="28" rx="6" fill="#111111"/>
+                <path d="M10 12L19 18L10 24V12Z" fill="#FFFFFF"/>
+                <path d="M26 12L17 18L26 24V12Z" fill="#FFFFFF"/>
+              </svg>
+            </div>
+            <div class="app-tile" title="Figma / Canva">
+              <svg viewBox="0 0 36 36" fill="none">
+                <circle cx="13" cy="11" r="3.5" fill="#F24E1E"/>
+                <circle cx="21" cy="11" r="3.5" fill="#FF7262"/>
+                <circle cx="13" cy="18" r="3.5" fill="#A259FF"/>
+                <circle cx="21" cy="18" r="3.5" fill="#1ABCFE"/>
+                <circle cx="13" cy="25" r="3.5" fill="#0ACF83"/>
+              </svg>
+            </div>
+          </div>
+          <div class="tool-category-badge">Branding &amp; Social Media</div>
+          <ul class="tool-bullets">
+            <li>Adobe Creative Suite</li>
+            <li>CapCut</li>
+            <li>Figma &amp; Canva</li>
+          </ul>
+        </div>
+
+        <!-- Group 3: Analytics & Insight -->
+        <div class="tool-group-card">
+          <div class="tool-icons-row">
+            <div class="app-tile" title="Power BI">
+              <svg viewBox="0 0 36 36" fill="none">
+                <rect x="9" y="19" width="4.5" height="11" rx="1.5" fill="#E8B000"/>
+                <rect x="15.5" y="13" width="4.5" height="17" rx="1.5" fill="#F2C80F"/>
+                <rect x="22" y="7" width="4.5" height="23" rx="1.5" fill="#F7DC43"/>
+              </svg>
+            </div>
+            <div class="app-tile" title="Google Analytics">
+              <svg viewBox="0 0 36 36" fill="none">
+                <rect x="6" y="20" width="6" height="12" rx="3" fill="#F4B400"/>
+                <rect x="15" y="13" width="6" height="19" rx="3" fill="#F4B400"/>
+                <rect x="24" y="5" width="6" height="27" rx="3" fill="#E37400"/>
+              </svg>
+            </div>
+            <div class="app-tile" title="Microsoft 365">
+              <svg viewBox="0 0 36 36" fill="none">
+                <rect x="4" y="4" width="28" height="28" rx="6" fill="#EB3C00"/>
+                <path d="M18 10L26 13V23L18 26L10 23V13L18 10Z" fill="#FFFFFF" fill-opacity="0.9"/>
+                <path d="M18 10V26L26 23V13L18 10Z" fill="#D83B01"/>
+                <path d="M18 14L22 16V20L18 22L14 20V16L18 14Z" fill="#FFFFFF"/>
+              </svg>
+            </div>
+          </div>
+          <div class="tool-category-badge">Analytics &amp; Insight</div>
+          <ul class="tool-bullets">
+            <li>PowerBI</li>
+            <li>Google Analytics</li>
+            <li>MS Office &amp; Sheets</li>
+          </ul>
+        </div>
+
+        <!-- Group 4: Ads & Growth -->
+        <div class="tool-group-card">
+          <div class="tool-icons-row">
+            <div class="app-tile" title="Meta Ads">
+              <svg viewBox="0 0 36 36" fill="none">
+                <path d="M12.5 13C9 13 6 15.5 6 18.5C6 21.5 9 24 12.5 24C15.2 24 17.5 22.3 18.9 19.8L19.2 19.3L19.5 19.8C20.9 22.3 23.2 24 25.9 24C29.4 24 32.4 21.5 32.4 18.5C32.4 15.5 29.4 13 25.9 13C23.2 13 20.9 14.7 19.5 17.2L19.2 17.7L18.9 17.2C17.5 14.7 15.2 13 12.5 13ZM12.5 15.5C14.5 15.5 16.3 16.8 17.4 18.8L17.7 19.4L17.4 20C16.3 22 14.5 23.3 12.5 23.3C10.2 23.3 8.5 21.2 8.5 18.5C8.5 15.8 10.2 15.5 12.5 15.5ZM25.9 15.5C28.2 15.5 29.9 15.8 29.9 18.5C29.9 21.2 28.2 23.3 25.9 23.3C23.9 23.3 22.1 22 21 20L20.7 19.4L21 18.8C22.1 16.8 23.9 15.5 25.9 15.5Z" fill="#0081FB"/>
+              </svg>
+            </div>
+            <div class="app-tile" title="MoEngage / Growth">
+              <svg viewBox="0 0 36 36" fill="none">
+                <rect x="4" y="4" width="28" height="28" rx="6" fill="#00186B"/>
+                <circle cx="18" cy="18" r="6" stroke="#FFFFFF" stroke-width="2.5"/>
+                <circle cx="18" cy="18" r="2.5" fill="#FFFFFF"/>
+              </svg>
+            </div>
+            <div class="app-tile" title="Google Ads">
+              <svg viewBox="0 0 36 36" fill="none">
+                <path d="M12 24L20 10L24 17L16 31L12 24Z" fill="#4285F4"/>
+                <path d="M20 10L28 24L24 31L16 17L20 10Z" fill="#FBBC04"/>
+                <circle cx="14" cy="27" r="3" fill="#34A853"/>
+              </svg>
+            </div>
+          </div>
+          <div class="tool-category-badge">Ads &amp; Growth</div>
+          <ul class="tool-bullets">
+            <li>Meta Ads</li>
+            <li>Google Ads</li>
+            <li>Meta Business Suite</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       SLIDE 6 : GALLERY & CREATIVE SHOWCASE
+       ========================================================= -->
+  <div class="slide">
+    <span class="tag-index">06 / 07</span>
+    
+    <div class="gallery-slide-header">
+      <div>
+        <h1 class="big">gallery<span class="dot">.</span></h1>
+        <p style="font-size: 14.5px; color: #4a473c; margin-top: 6px; font-weight: 500;">
+          A visual showcase of event photography, creative graphics, video production &amp; high-impact campaigns.
+        </p>
+      </div>
+      
+      <!-- Filter Tabs -->
+      <div class="gallery-filter-tabs">
+        <button class="gal-tab active" data-filter="all">All (6)</button>
+        <button class="gal-tab" data-filter="photo">&#128248; Photography</button>
+        <button class="gal-tab" data-filter="design">&#127912; Graphic Design</button>
+        <button class="gal-tab" data-filter="video">&#127916; Video &amp; Reels</button>
+        <button class="gal-tab" data-filter="ads">&#128640; Ads &amp; Growth</button>
+      </div>
+    </div>
+
+    <!-- Gallery 6-Card Grid -->
+    <div class="gallery-grid" id="galleryGrid">
+      
+      <!-- Item 1: Collectorate Event Photography -->
+      <div class="gallery-card" data-category="photo" onclick="openLightbox('gallery_photo.jpg', 'Nagapattinam Collectorate Summit', 'Photography', 'Awarded Best Photographer for high-profile official event coverage, capturing dignitary presentations and institutional summits with crisp DSLR compositions.')">
+        <div class="gal-thumb-wrap">
+          <img src="gallery_photo.jpg" alt="Nagapattinam Collectorate Summit Coverage">
+          <span class="gal-badge">Best Photographer Award</span>
+          <div class="gal-zoom-btn">&#128269;</div>
+        </div>
+        <div class="gal-body">
+          <span class="gal-tag-small">Event Photography</span>
+          <h3 class="gal-title">Collectorate &amp; Institutional Summit</h3>
+          <p class="gal-desc">Official photography for 500+ government and institutional events with stage lighting &amp; keynote coverage.</p>
+        </div>
+      </div>
+
+      <!-- Item 2: Graphic Design Showcase -->
+      <div class="gallery-card" data-category="design" onclick="openLightbox('gallery_design.jpg', 'Brand Identity &amp; Social Creatives', 'Graphic Design', 'Produced 300+ vibrant promotional posters, typography creatives, and social media branding kits using Adobe Photoshop, Illustrator and Canva.')">
+        <div class="gal-thumb-wrap">
+          <img src="gallery_design.jpg" alt="Graphic Design & Branding Posters">
+          <span class="gal-badge">300+ Creatives</span>
+          <div class="gal-zoom-btn">&#128269;</div>
+        </div>
+        <div class="gal-body">
+          <span class="gal-tag-small">Graphic Design</span>
+          <h3 class="gal-title">Brand Identity &amp; Social Creatives</h3>
+          <p class="gal-desc">High-engagement visual posters, digital typography, and brand identity kits built for maximum conversion.</p>
+        </div>
+      </div>
+
+      <!-- Item 3: Video Production & Reels -->
+      <div class="gallery-card" data-category="video" onclick="openLightbox('gallery_video.jpg', 'Reels Production &amp; Video Editing', 'Video Editing', 'Edited 100+ viral reels and promotional commercials using Adobe Premiere Pro, CapCut, and DaVinci Resolve with dynamic pacing and sound design.')">
+        <div class="gal-thumb-wrap">
+          <img src="gallery_video.jpg" alt="Video Editing Studio Production">
+          <span class="gal-badge">100+ Reels Edited</span>
+          <div class="gal-zoom-btn">&#128269;</div>
+        </div>
+        <div class="gal-body">
+          <span class="gal-tag-small">Video Production</span>
+          <h3 class="gal-title">Commercials &amp; Viral Reels</h3>
+          <p class="gal-desc">High-retention short-form video editing, color grading, and dynamic motion graphics for social media.</p>
+        </div>
+      </div>
+
+      <!-- Item 4: Performance Meta Ad Creatives -->
+      <div class="gallery-card" data-category="ads" onclick="openLightbox('gallery_design.jpg', 'High-Converting Meta Ad Banners', 'Ads & Growth', 'Custom-designed performance ad creatives optimized for Meta Ads Manager, generating 3X lead growth and over 50L+ revenue for client brands.')">
+        <div class="gal-thumb-wrap">
+          <img src="gallery_design.jpg" alt="Performance Ad Creatives">
+          <span class="gal-badge">3X Lead Growth</span>
+          <div class="gal-zoom-btn">&#128269;</div>
+        </div>
+        <div class="gal-body">
+          <span class="gal-tag-small">Meta &amp; Google Ads</span>
+          <h3 class="gal-title">High-Converting Ad Creatives</h3>
+          <p class="gal-desc">Targeted ad copies and visual designs that lower CAC and drive measurable qualified enquiries.</p>
+        </div>
+      </div>
+
+      <!-- Item 5: Live Event & Campus Coverage -->
+      <div class="gallery-card" data-category="photo" onclick="openLightbox('gallery_photo.jpg', 'Campus & Leadership Conferences', 'Photography', 'Led photography and digital coverage teams for collegiate technical symposiums, youth leadership meets, and cultural exhibitions.')">
+        <div class="gal-thumb-wrap">
+          <img src="gallery_photo.jpg" alt="Campus Leadership & Event Photojournalism">
+          <span class="gal-badge">500+ Events</span>
+          <div class="gal-zoom-btn">&#128269;</div>
+        </div>
+        <div class="gal-body">
+          <span class="gal-tag-small">Event Photojournalism</span>
+          <h3 class="gal-title">Campus &amp; Youth Leadership Meets</h3>
+          <p class="gal-desc">Live on-ground photography direction and immediate same-day social media media releases.</p>
+        </div>
+      </div>
+
+      <!-- Item 6: Short-Form Promos & Fast Edits -->
+      <div class="gallery-card" data-category="video" onclick="openLightbox('gallery_video.jpg', 'Promo Videos & Motion Teasers', 'Video Editing', 'Crafted rapid event highlight reels and promotional teasers tailored for Instagram Reels and YouTube Shorts algorithms.')">
+        <div class="gal-thumb-wrap">
+          <img src="gallery_video.jpg" alt="Short Form Video Editing">
+          <span class="gal-badge">CapCut &amp; Premiere</span>
+          <div class="gal-zoom-btn">&#128269;</div>
+        </div>
+        <div class="gal-body">
+          <span class="gal-tag-small">Video Editing</span>
+          <h3 class="gal-title">Event Highlights &amp; Motion Teasers</h3>
+          <p class="gal-desc">Fast-paced edits, synchronized beats, and engaging motion captions tailored for organic reach.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- =========================================================
+       SLIDE 7: THANK YOU (WITH USER PHOTO EMBEDDED)
+       ========================================================= -->
+  <div class="slide">
+    <span class="tag-index">07 / 07</span>
+    <div class="thanks">
+      <div class="thanks-left">
+        <h1>thank you<span class="bang">!</span></h1>
+        <div class="sub">Looking forward to <b>working</b> with you.</div>
+        <div class="contact-list">
+          <a href="tel:9952511975" class="contact-row"><span class="ic">&#128222;</span> 9952511975</a>
+          <a href="mailto:pkpravin2003@gmail.com" class="contact-row"><span class="ic">&#9993;</span> pkpravin2003@gmail.com</a>
+          <div class="contact-row"><span class="ic">&#128205;</span> Nagapattinam, Tamil Nadu</div>
+          <div class="contact-row"><span class="ic">in</span> LinkedIn <span class="note">&mdash; Profile Link</span></div>
+          <div class="contact-row"><span class="ic">&#128279;</span> Portfolio <span class="note">&mdash; pravin-portfolio.com</span></div>
+        </div>
+      </div>
+      <div class="thanks-right">
+        <div class="thanks-avatar-img">
+          <img src="pravin.jpg" alt="K. Pravin">
+        </div>
+        <div class="signature">K. Pravin</div>
+        <div class="role-tag">Digital Marketing Executive</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Lightbox Modal for Gallery Preview -->
+<div class="lightbox-modal" id="lightboxModal" onclick="closeLightbox(event)">
+  <div class="lightbox-content" onclick="event.stopPropagation()">
+    <button class="lightbox-close-btn" onclick="closeLightbox()">&times;</button>
+    <div class="lightbox-img-wrap">
+      <img src="" id="lightboxImg" alt="Gallery Preview">
+    </div>
+    <div class="lightbox-info">
+      <span class="gal-tag-small" id="lightboxCategory">Category</span>
+      <h2 class="gal-title" id="lightboxTitle" style="font-size: 20px; margin-top: 4px;">Title</h2>
+      <p class="gal-desc" id="lightboxDesc" style="font-size: 14px; margin-top: 8px; color: #3a382f;">Description</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Filter Functionality
+  const filterTabs = document.querySelectorAll('.gal-tab');
+  const galleryCards = document.querySelectorAll('.gallery-card');
+
+  filterTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      filterTabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      
+      const filter = tab.getAttribute('data-filter');
+      
+      galleryCards.forEach(card => {
+        const cat = card.getAttribute('data-category');
+        if (filter === 'all' || cat === filter) {
+          card.style.display = 'flex';
+          card.style.animation = 'popIn 0.3s ease-out';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // Lightbox Modal Functions
+  function openLightbox(imgSrc, title, category, desc) {
+    document.getElementById('lightboxImg').src = imgSrc;
+    document.getElementById('lightboxTitle').textContent = title;
+    document.getElementById('lightboxCategory').textContent = category;
+    document.getElementById('lightboxDesc').textContent = desc;
+    document.getElementById('lightboxModal').classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox(e) {
+    document.getElementById('lightboxModal').classList.remove('active');
+    document.body.style.overflow = 'auto';
+  }
+
+  // Close modal on Escape key press
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeLightbox();
+    }
+  });
+</script>
+</body>
+</html>
